@@ -14,7 +14,7 @@
 	
 	<header>
 	
-		<p>tu jest header <p>
+		<p> Strona testow <p>
 		
 	</header>
 
