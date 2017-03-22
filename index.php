@@ -14,7 +14,7 @@
 	
 	<header>
 	
-		<p> Strona testow <p>
+		<p> Strona testow!! <p>
 		
 	</header>
 

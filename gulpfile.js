@@ -3,7 +3,7 @@ var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 var sourcemaps  = require('gulp-sourcemaps');
 
-// Static Server + watching scss/html files
+// Static Server + watching scss/php files
 gulp.task('serve', ['sass'], function() {
     
     browserSync.init({
