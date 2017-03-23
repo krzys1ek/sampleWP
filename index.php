@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php wp_title() ?> </title>
+	<title><?php wp_title(); ?> </title>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
@@ -11,14 +11,10 @@
 </head>
 
 <body>
+    
+<?php get_header(); ?>
 	
-	<header>
-	
-		<p> Strona testow!! <p>
-		
-	</header>
-
-	<div id="content">
+    <div id="content">
 
 		<?php
 			if ( have_posts() ) :
@@ -36,9 +32,8 @@
 		
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<p> Tu jest stopka </p>
-	</footer>
+	
+<?php get_footer(); ?> <!-- załączanie footer -->
 
 <?php wp_footer(); ?>
 
